@@ -1,0 +1,33 @@
+body {
+  font-family: "Open Sans", sans-serif, "Times New Roman", Times, serif;
+  /* background-color: #fff; */
+  margin: 0;
+  padding: 0;
+}
+
+/* Should these have a class name? more weight? */
+
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 2.06rem;
+  font-weight: 200;
+}
+
+.nav-links {
+  font-size: 1.31rem;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #5bacc3;
+  color: white;
+  font-size: 1.31rem;
+  font-weight: 400;
+  width: 11.25rem;
+  padding: 20px;
+}

@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.header-container {
+  background-color: #fff0ed;
+}
+
+.site-title-logo {
+  display: inline-block;
+  font-size: 63px;
+  font-weight: 200;
+}
+
+.site-title {
+  display: inline-block;
+  margin: 0;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline;
+  padding: 0 40px 0;
+}
+
+.nav-links,
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.shop {
+  color: #5bacc3;
+}
+
+.coffee-header-section {
+  background-color: #fff0ed;
+  margin-top: -50px;
+}
+
+.coffee-header-section__container {
+}
+
+.coffee-title {
+  font-weight: 500;
+  margin-left: 100px;
+  vertical-align: middle;
+}
+
+.coffee-title__sentence {
+}
+
+.coffee-hero {
+  margin-left: 1100px;
+}
+
+.coffee-definition .btn,
+.shop-now {
+  margin-left: 220px;
+  vertical-align: center;
+  margin-top: 90px;
+}
+
+.products-section {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.products-title {
+  text-align: center;
+}
+
+.discount-section .btn,
+.view-all {
+  margin-left: 760px;
+
+  margin-bottom: 40px;
+}
+
+.discount-code {
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 120px 0;
+}
+
+.discount-code p {
+  width: 70%;
+  font-size: 2.8rem;
+  background-color: #393939;
+  color: #fff;
+  padding: 1.25rem;
+  margin-left: 200px;
+  margin-top: auto;
+}
+
+.discout-section,
+.deal {
+  font-weight: 700;
+}
+
+.product-price {
+  font-size: 2.06rem;
+  font-weight: 400;
+  color: #5bacc3;
+}
+
+.coffee-beans-card,
+.cold-brew-card,
+.in-house-card {
+  width: 21.25rem;
+  height: 28.125rem;
+  border-radius: 10px;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 5px 9px -1px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.card-details {
+  background-color: #fff0ed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* .product-price p {
+  padding-top: 80px;
+} */
+
+/* .cold-brew-card {
+  width: 21.25rem;
+  height: 28.125rem;
+  border: solid 2px #393939;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.in-house-card {
+  width: 21.25rem;
+  height: 28.125rem;
+  border: solid 2px #393939;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+} */
+
+.footer-section {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+  vertical-align: center;
+}
+
+.products-button {
+  align-content: center;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.footer-section,
+.address,
+.socials,
+.hours {
+  background-color: #fff0ed;
+}
+
+.footer-section {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials img {
+  height: 50px;
+  width: 50px;
+}
